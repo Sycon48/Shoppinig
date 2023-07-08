@@ -1,0 +1,93 @@
+.yellow-rectangle{
+    width: 20vw;
+    height: 36vw;
+    background: #FFC250;
+
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.white-rectangle{
+    width: 20vw;
+    height: 36vw;
+    background: #D7D7D7;
+
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+
+    padding-left: 1vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.blank-box{
+    width: 18vw;
+    height: 2.6vw;
+    border: 0.1vw solid #272D2F;
+    border-radius: 5px;
+}
+
+.center-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+img{
+    width: 24vw;
+    height: 16vw;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+h1{
+    font-family: 'OpenSans';
+    font-size: 4.5vw;
+    color: white;
+}
+
+h2{
+    font-family: 'OpenSans';
+    font-size: 2.5vw;
+}
+
+h3{
+    font-family: 'PTsans';
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 300;
+}
+
+h4{
+    font-family: 'PTsans';
+    font-size: 1vw;
+    font-weight: 200;
+}
+
+h5{
+    font-family: 'PTsans';
+    font-size: 0.8vw;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PTsans';
+    src: url('./fonts/PTS55F.ttf');
+}
